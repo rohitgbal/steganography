@@ -1,0 +1,7 @@
+git init
+git remote add origin $URL:PATH/TO/REPO
+git fetch
+git reset origin/master
+git checkout -t origin/master
+git add -A
+git reset --hard
